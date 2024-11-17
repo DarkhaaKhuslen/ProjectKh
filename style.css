@@ -1,0 +1,261 @@
+.menu i{
+    font-size: 25px;
+    font-style: italic;
+}
+.tab{
+    width: 300px;
+    height: 100vh;
+    border: 1px solid #e1e1e1;
+    position: fixed;
+    top:0;
+    background-color:#E5E4E2;
+    left: -300px;
+    transition: 0.5s ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.tab li a{
+    position: relative;
+    margin-right: 200px;
+}
+.tab ul {
+    list-style-type:none;
+}
+.tab ul li{
+    margin-bottom: 15px;
+}
+.tab ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size:20px
+}
+.close{
+    position: relative;
+    font-size: 25px;
+    background-color:whitesmoke;
+    border-radius: 7px;
+    margin-bottom: 680px;
+    margin-left: 0px;
+}    
+.home, .about, .project, .skills, .contact{
+    height: 100vh;
+    width: 100%;
+    margin-right: 200px;
+}
+.home{
+   display: flex;
+   justify-content: center;
+   align-items: center ;
+}   
+#h1{
+    color: white;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border:none;
+    outline: none;
+    font-family: 'Poppins' sans-serif;
+}
+.menu{
+    position:fixed;
+    top:0;
+}
+.text li i{
+    position: relative;
+    font-size: 19px;
+    color:#000;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 80%;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color:azure;
+}
+header{
+    margin-top:20px;
+    font-size:20px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:1rem 15%;
+    background-color: transparent;
+    filter:drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-style: italic;
+}
+.logo{
+    font-size: 3rem;
+    font-style: italic;
+    color: #B6B6B6;
+    font-weight: 1000;
+    transition: 0.8s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+    color: azure;
+}
+section{
+    min-height: 100vh;
+    padding:5rem 9% 5rem;
+}
+.home-content h1 {
+    position: relative;
+    font-size: 30px;
+    padding-left: 8%;
+    transition: 0.8s ease;
+    cursor:default;
+}
+.home-content h1:hover{
+    transform: scale(1.1);
+    color: tomato;
+} 
+.home-content h2{
+    position: relative;
+    padding-left: 8%;
+    cursor:default;
+    transition: 0.8s ease;
+}
+.home-content h2:hover{
+    transform: scale(1.1);
+    color:tomato;
+}
+.home-content p{
+    position: relative;
+    font-size: 19px;
+    padding-left: 8%;
+    cursor:default;  
+    transition: 0.8s ease;
+}
+.home img{
+    border: solid;
+    border-radius: 30px;
+}
+.home-content p:hover{
+    transform: scale(1);
+    color:tomato
+}
+.about-details{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 90vh;
+    font-size: 20px;
+    color:azure;
+}
+.about-details h1{
+    position: relative;
+    right: 250px;
+    border: solid;
+    background-color:azure;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: 0.8s ease;
+}
+.about-details h1:hover{
+    transform: scale(1.1);
+    color:red;
+    cursor: pointer;
+}
+.column p{
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border:solid;
+    color:black;
+    background-color:azure;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+.column p:hover{
+    transform: scale(1.1);
+    color:red;
+}
+.projects {
+    padding: 50px 0;
+    text-align: center;
+    background-color:white;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project-item {
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px (69, 69, 69, 0.105);
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover img {
+    transform: scale(1.05);
+}
+.project-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color:white;
+}
+.skills-container {
+    display: grid;
+    gap: 30px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+.skill {
+    background-color: rgba(0, 0, 0, 0.221);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.progress {
+    background-color:blue;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    min-width: 400px; 
+} 
+.progress-bar{
+    background-color:#fff;
+    color: #000;
+}
